@@ -212,7 +212,7 @@ Material:
     - _SrcBlend: 1
     - _Surface: 0
     - _Tess: 20
-    - _WaveAmplitude: 0.5
+    - _WaveAmplitude: 0.21
     - _WaveCount: 32
     - _WaveEffectsBoost: 0.3
     - _WaveEndDistance: 100
