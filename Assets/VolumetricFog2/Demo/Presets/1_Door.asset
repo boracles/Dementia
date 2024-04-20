@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 1_Door
   m_EditorClassIdentifier: 
   raymarchQuality: 6
-  raymarchMinStep: 4.33
+  raymarchMinStep: 2.9
   jittering: 1.25
   dithering: 0.289
   renderQueue: 3100
@@ -30,16 +30,16 @@ MonoBehaviour:
   detailScale: 0.35
   detailStrength: 0.5
   detailOffset: -0.5
-  density: 0.77
+  density: 1
   shape: 1
   border: 0.061
   customHeight: 1
-  height: 1.21
+  height: 1.33
   verticalOffset: 0
   distance: 0
-  distanceFallOff: 1
-  maxDistance: 10000
-  maxDistanceFallOff: 0
+  distanceFallOff: 0
+  maxDistance: 7
+  maxDistanceFallOff: 0.197
   terrainFit: 0
   terrainFitResolution: 128
   terrainLayerMask:

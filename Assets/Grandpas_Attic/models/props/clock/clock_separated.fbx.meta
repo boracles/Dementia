@@ -1,36 +1,92 @@
 fileFormatVersion: 2
 guid: fd3678a509c3e1047a6ef06573cd9168
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: clock_door
-    100002: clock_hand_hours
-    100004: clock_hand_minutes
-    100006: clock_pendulum
-    100008: //RootNode
-    400000: clock_door
-    400002: clock_hand_hours
-    400004: clock_hand_minutes
-    400006: clock_pendulum
-    400008: //RootNode
-    2100000: clock
-    2100002: clock_glass
-    2300000: clock_door
-    2300002: clock_hand_hours
-    2300004: clock_hand_minutes
-    2300006: clock_pendulum
-    2300008: //RootNode
-    3300000: clock_door
-    3300002: clock_hand_hours
-    3300004: clock_hand_minutes
-    3300006: clock_pendulum
-    3300008: //RootNode
-    4300000: clock_separated
-    4300002: clock_pendulum
-    4300004: clock_hand_hours
-    4300006: clock_hand_minutes
-    4300008: clock_door
-    2186277476908879412: ImportLogs
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: clock_door
+  - first:
+      1: 100002
+    second: clock_hand_hours
+  - first:
+      1: 100004
+    second: clock_hand_minutes
+  - first:
+      1: 100006
+    second: clock_pendulum
+  - first:
+      1: 100008
+    second: //RootNode
+  - first:
+      4: 400000
+    second: clock_door
+  - first:
+      4: 400002
+    second: clock_hand_hours
+  - first:
+      4: 400004
+    second: clock_hand_minutes
+  - first:
+      4: 400006
+    second: clock_pendulum
+  - first:
+      4: 400008
+    second: //RootNode
+  - first:
+      21: 2100000
+    second: clock
+  - first:
+      21: 2100002
+    second: clock_glass
+  - first:
+      23: 2300000
+    second: clock_door
+  - first:
+      23: 2300002
+    second: clock_hand_hours
+  - first:
+      23: 2300004
+    second: clock_hand_minutes
+  - first:
+      23: 2300006
+    second: clock_pendulum
+  - first:
+      23: 2300008
+    second: //RootNode
+  - first:
+      33: 3300000
+    second: clock_door
+  - first:
+      33: 3300002
+    second: clock_hand_hours
+  - first:
+      33: 3300004
+    second: clock_hand_minutes
+  - first:
+      33: 3300006
+    second: clock_pendulum
+  - first:
+      33: 3300008
+    second: //RootNode
+  - first:
+      43: 4300000
+    second: clock_separated
+  - first:
+      43: 4300002
+    second: clock_pendulum
+  - first:
+      43: 4300004
+    second: clock_hand_hours
+  - first:
+      43: 4300006
+    second: clock_hand_minutes
+  - first:
+      43: 4300008
+    second: clock_door
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -43,7 +99,7 @@ ModelImporter:
       name: clock_glass
     second: {fileID: 2100000, guid: b0a55628006ffb04383e621a0b361712, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -52,6 +108,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -76,25 +133,36 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -103,10 +171,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 0
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -116,13 +184,19 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

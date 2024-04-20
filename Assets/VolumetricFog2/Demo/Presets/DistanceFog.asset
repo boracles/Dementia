@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   raymarchQuality: 6
   raymarchMinStep: 4.33
-  jittering: 1.25
+  jittering: 2
   dithering: 0.289
   renderQueue: 3100
   sortingLayerID: 0
@@ -22,15 +22,15 @@ MonoBehaviour:
   constantDensity: 0
   noiseTexture: {fileID: 2800000, guid: 9c79340e1a1054275ba04070a27de306, type: 3}
   noiseTextureOptimizedSize: 256
-  noiseStrength: 0.92
+  noiseStrength: 1.13
   noiseScale: 0.7
-  noiseFinalMultiplier: 1.41
+  noiseFinalMultiplier: 1.03
   useDetailNoise: 0
   detailTexture: {fileID: 11700000, guid: 950add8d241c6479bbab1f10e1035d60, type: 2}
   detailScale: 0.35
   detailStrength: 0.5
   detailOffset: -0.5
-  density: 0.77
+  density: 5.51
   shape: 0
   border: 0.061
   customHeight: 1
@@ -48,12 +48,12 @@ MonoBehaviour:
   terrainFogHeight: 25
   terrainFogMinAltitude: 0
   terrainFogMaxAltitude: 150
-  albedo: {r: 0.95283014, g: 0.99655575, b: 1, a: 1}
-  enableDepthGradient: 0
+  albedo: {r: 0.0074165133, g: 0.47269094, b: 0.78616345, a: 0.867}
+  enableDepthGradient: 1
   depthGradient:
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
+    key1: {r: 0.13112605, g: 0.3023958, b: 0.49056602, a: 1}
     key2: {r: 1, g: 0.3726415, b: 0.3726415, a: 0}
     key3: {r: 1, g: 0.3726415, b: 0.3726415, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}
@@ -77,7 +77,7 @@ MonoBehaviour:
     atime6: 0
     atime7: 0
     m_Mode: 0
-    m_ColorSpace: -1
+    m_ColorSpace: 1
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
   depthGradientMaxDistance: 500
@@ -114,7 +114,7 @@ MonoBehaviour:
     m_NumAlphaKeys: 2
   brightness: 1.57
   deepObscurance: 1
-  specularColor: {r: 0.32415643, g: 0.6151898, b: 0.69182384, a: 1}
+  specularColor: {r: 0.68806607, g: 0.8511968, b: 0.8930817, a: 1}
   specularThreshold: 0.637
   specularIntensity: 0.428
   turbulence: 0.73
